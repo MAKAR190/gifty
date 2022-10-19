@@ -9,7 +9,7 @@ const QuestionsAndAnswers = () => {
     <>
       <NextSeo
         title="Frequently asked questions - Gifty"
-        description="Do you have any questions about our products? Here we asked on the most common questions, but if you didn't find your question - email us"
+        description="Do you have any questions about our products? Here we asked on the most common questions, but if you didn&apos;t find your question - email us"
         additionalLinkTags={[
           {
             rel: "icon",
@@ -21,7 +21,7 @@ const QuestionsAndAnswers = () => {
           url: `${baseHost}/questions-and-answers`,
           title: "Frequently asked questions - Gifty",
           description:
-            "Do you have any questions about our products? Here we asked on the most common questions, but if you didn't find your question - email us",
+            "Do you have any questions about our products? Here we asked on the most common questions, but if you didn&apos;t find your question - email us",
           images: [
             {
               url: "/logoWhite.svg",
@@ -123,8 +123,8 @@ const QuestionsAndAnswers = () => {
                 </summary>
                 <div>
                   “Blessed are they who have the gift of making friends, for it
-                  is one of God's best gifts. It involves many things, but above
-                  all, the power of going out of one's self, and appreciating
+                  is one of God&apos;s best gifts. It involves many things, but above
+                  all, the power of going out of one&apos;s self, and appreciating
                   whatever is noble and loving in another.”
                 </div>
               </details>
