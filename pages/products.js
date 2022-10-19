@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import operations from "../redux/auth/operations";
 import selectors from "../redux/auth/selectors";
 import cart from "../public/cart.svg";
-import mainBg from "../public/mainLBG.jpg";
+import mainBg from "../public/MainLBG.jpg";
 import secondMainBg from "../public/giftBg.jpg";
 import thirdMainBg from "../public/giftBg1.jpg";
 import forthMainBg from "../public/giftBg2.jpg";

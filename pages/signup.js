@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/enterAccount.module.css";
-import mainBg from "../public/mainLBG.jpg";
+import mainBg from "../public/MainLBG.jpg";
 import logo from "../public/Logo.svg";
 import { Layout, Buttons, Form, Inputs, Checkbox, Loader } from "../components";
 import Image from "next/image";
