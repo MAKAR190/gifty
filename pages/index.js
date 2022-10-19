@@ -4,7 +4,7 @@ import { client, urlFor } from "../lib/client";
 import { toast } from "react-toastify";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import mainBg from "../public/MainLBG.jpg";
+import mainBg from "../public/mainLBG.jpg";
 import secondMainBg from "../public/giftBg.jpg";
 import thirdMainBg from "../public/giftBg1.jpg";
 import forthMainBg from "../public/giftBg2.jpg";
