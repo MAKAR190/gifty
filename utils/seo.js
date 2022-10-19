@@ -1,4 +1,4 @@
-export const baseHost = "https://spl-fe.vercel.app";
+export const baseHost = "https://gifty-store.vercel.app";
 
 export const qAaJsonLd = [
   {
