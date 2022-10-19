@@ -1,0 +1,4 @@
+.box {
+  text-align: center;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (32 - 24) + 24px);
+}

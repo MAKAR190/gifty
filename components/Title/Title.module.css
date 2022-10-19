@@ -1,0 +1,11 @@
+.title {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (32 - 22) + 22px);
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding: 4%;
+}

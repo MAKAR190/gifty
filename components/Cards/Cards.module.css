@@ -1,0 +1,281 @@
+.card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #fafafa;
+  align-items: center;
+  box-shadow: 0px 10px 5px -7px rgba(175, 175, 175, 0.9);
+  transition: 0.5s;
+  border-radius: 5px;
+  min-width: 188px;
+  max-width: 420px;
+  position: relative;
+}
+#cartCard {
+  display: none;
+}
+#imageCard {
+  min-width: 0;
+}
+.lctext {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  max-height: 120px;
+  min-height: 120px;
+  cursor: pointer;
+}
+.sctext {
+  text-align: left;
+  padding: 10px;
+}
+.sactions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.scTextWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  max-height: 150px;
+  min-height: 150px;
+  padding: 5px;
+  text-overflow: ellipsis;
+}
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (16 - 14) + 14px);
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 11px;
+}
+.lctitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 16) + 16px);
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.sctitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 14) + 14px);
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.lcdescr {
+  font-family: "Montserrat";
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  color: #000000;
+}
+.scdescr {
+  font-family: "Montserrat";
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  color: #000000;
+}
+.lcimgWrapper {
+  position: relative;
+  width: 100%;
+  max-height: 260px;
+  min-height: 260px;
+  height: 100%;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imageCardPreview {
+  background: #f5f7fa;
+  padding: 1%;
+}
+.lcimg {
+  max-width: 310px;
+  height: 100%;
+}
+.scimgWrapper {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  min-height: 300px;
+  padding: 5px;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scimgWrapper:hover {
+  background-color: #f40b0bc1;
+  cursor: pointer;
+}
+#cartCardImgWrapper {
+  max-height: 250px;
+  min-height: 250px;
+}
+#shopCardActions {
+  width: 93%;
+}
+#shopCardActionsBtn {
+  min-width: 90px;
+}
+.sactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4% 10px 0;
+  height: 100%;
+  width: 100%;
+}
+.sactionBtns {
+  width: 30%;
+  min-width: 100px;
+  max-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.sactionBtn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.hoverBox {
+  opacity: 0;
+  visibility: hidden;
+}
+.history {
+  margin-bottom: 2%;
+}
+@media (max-width: 1023px) {
+  #shopCardActionsBtn {
+    min-width: 75px;
+  }
+}
+@media (min-width: 1024px) {
+  .card:hover {
+    box-shadow: 0px 10px 5px -5px rgba(46, 45, 45, 0.9);
+  }
+  .lcimgWrapper:hover .hoverBox {
+    opacity: 1;
+    visibility: visible;
+  }
+  .hoverBox {
+    background-color: rgba(0.1, 0.1, 0.1, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+  }
+  .hoverBoxBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 2000px) {
+  .card {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fafafa;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 5px -7px rgba(175, 175, 175, 0.9);
+    transition: 0.5s;
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 520px;
+  }
+  #cartCardImgWrapper {
+    max-height: 360px;
+    min-height: 360px;
+  }
+  .scimgWrapper {
+    max-height: 360px;
+    min-height: 360px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1999px) {
+  #cartCardImgWrapper {
+    max-height: 320px;
+    min-height: 320px;
+  }
+  .scimgWrapper {
+    max-height: 320px;
+    min-height: 320px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .scdescr {
+    width: 140%;
+  }
+  .scimgWrapper {
+    max-height: 210px;
+    min-height: 210px;
+  }
+  .lctext {
+    max-height: 150px;
+    min-height: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #cartTable {
+    display: none;
+  }
+  #cartCard {
+    display: flex;
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 460px) {
+  #cartCard {
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .lctext {
+    max-height: 100px;
+    min-height: 100px;
+  }
+}
+@media (min-width: 2300px) {
+  .scTextWrapper {
+    min-height: 250px;
+    max-height: 250px;
+  }
+  .sctext {
+    padding: 30px;
+  }
+  .sctitle{
+    line-height: 40px;
+  }
+}

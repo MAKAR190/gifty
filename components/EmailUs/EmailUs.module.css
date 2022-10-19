@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.formElement {
+  padding-top: 2%;
+  width: 100%;
+}
+.formElement:last-child {
+  padding-bottom: 2%;
+  margin-top: 5%;
+  width: 40%;
+  max-width: 100px;
+}
+.formTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (40 - 24) + 24px);
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

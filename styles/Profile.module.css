@@ -1,0 +1,154 @@
+.mainInfoBox {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  background: #f5f7fa;
+}
+#mobile {
+  display: none;
+}
+.mainInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profileIcon {
+  width: 8%;
+  min-width: 60px;
+}
+.email {
+  padding-left: 2%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 29px;
+}
+.infoText {
+  font-family: "Montserrat", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 10) + 10px);
+  line-height: 20px;
+  color: #535353;
+  padding-bottom: 5%;
+}
+.detailsBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 2%;
+  width: 90%;
+  margin: 0 auto;
+}
+.showDetailsBtn {
+  margin: 0 auto;
+  width: 20%;
+  max-width: 250px;
+  min-width: 150px;
+}
+.showDetails {
+  padding: 1%;
+}
+#firstColumn {
+  position: relative;
+}
+#secondColumn {
+  text-align: left;
+}
+#firstColumnInput {
+  width: 70%;
+}
+.input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.submitBtn {
+  width: 24%;
+  min-width: 150px;
+  position: absolute;
+  left: 1%;
+}
+.detailsTitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 18) + 18px);
+  line-height: 48px;
+}
+.passwordBox {
+  padding: 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.inputPassword {
+  padding-top: 2%;
+  width: 50%;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    padding-top: 90px;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 2300px) {
+  .wrapper {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .mainInfoBox {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+  #secondColumn {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 970px) {
+  .detailsBox {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  #firstColumnInput {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #secondColumn {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .childDetailsColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    width: 80%;
+  }
+  .submitBtn {
+    position: relative;
+    margin: 0 auto;
+  }
+  #checkbox {
+    margin-bottom: 2%;
+    margin: 0 auto;
+  }
+}

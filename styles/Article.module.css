@@ -1,0 +1,63 @@
+.mainTitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (40 - 24) + 24px);
+  line-height: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f7fa;
+}
+.contentBox {
+  background-color: #fff;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #cfd2d7;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.25);
+  border-top: none;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.mediaShareBox {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+}
+.shareBtn {
+  cursor: pointer;
+}
+.content p {
+  padding: 1% 0 1% 0;
+}
+.moreBtn {
+  margin: 0 auto;
+  max-width: 140px;
+  margin-top: 2%;
+  width: 10%;
+  min-width: 150px;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .articleWrapper {
+    padding-top: 90px;
+  }
+}
+@media (min-width: 1440px) {
+  .articleWrapper {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 2300px) {
+  .articleWrapper {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .contentBox {
+    padding-bottom: 18%;
+    padding-top: 7%;
+  }
+}

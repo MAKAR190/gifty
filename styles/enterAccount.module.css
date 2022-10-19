@@ -1,0 +1,240 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.mainTitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (60 - 52) + 52px);
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #f5f7fa;
+  height: 20%;
+  max-height: 140px;
+  width: 35%;
+  min-width: 420px;
+  margin: 0 auto;
+}
+.checkboxParagraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+.logo div {
+  width: 30%;
+}
+.formBox {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  padding: 2%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#actualForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 18) + 18px);
+  line-height: 29px;
+  color: #5e6c84;
+  padding-bottom: 4%;
+}
+.input {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 80%;
+}
+.submitBtn {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 30%;
+  min-width: 120px;
+  max-width: 150px;
+}
+.paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (12 - 12) + 12px);
+  line-height: 20px;
+  color: #5e6c84;
+  display: flex;
+  justify-content: center;
+  min-width: 40px;
+  width: 100%;
+  padding-top: 2%;
+}
+.or {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  color: #5e6c84;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.secondLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (14 - 12) + 12px);
+  line-height: 20px;
+  color: #5e6c84;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 2%;
+}
+#pLink {
+  padding-left: 1%;
+}
+.backBtn {
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.alignWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-width: 300px;
+}
+.forgotPasswordBox {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  margin: 0 auto;
+  padding: 2%;
+  min-width: 300px;
+  border-radius: 5px;
+}
+.logoForgotPassword {
+  width: 25%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  min-width: 100px;
+  cursor: pointer;
+}
+.forgotPasswordWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.backBtnForgotPassword {
+  width: 15%;
+  margin: 0 auto;
+  min-width: 130px;
+  padding-top: 5%;
+}
+.btnForgotPassword {
+  width: 15%;
+  margin: 0 auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  min-width: 100px;
+}
+.forgotPasswordText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (12 - 12) + 12px);
+  line-height: 20px;
+  color: #5e6c84;
+  display: flex;
+  justify-content: center;
+  min-width: 40px;
+  width: 100%;
+}
+.forgotPasswordInput {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .formWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+  }
+  .formBox {
+    width: 80%;
+  }
+  .logoForgotPassword {
+    width: 50%;
+  }
+  .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .logo div {
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) and (min-height: 650px) {
+  .formWrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

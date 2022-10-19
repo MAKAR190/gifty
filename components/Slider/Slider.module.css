@@ -1,0 +1,69 @@
+@media (min-width: 1024px) {
+  .carousel {
+    padding-bottom: 3%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .child {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .actionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .actionBtn {
+    max-width: 70px;
+    margin: 1%;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .actionsContainer {
+    display: none;
+  }
+  .carousel {
+    padding-bottom: 6%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.imagesActionsLeft {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translate(-2%, -60%);
+  max-width: 70px;
+  width: 15%;
+}
+.imagesActionsRight {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translate(-2%, -60%);
+  max-width: 70px;
+  width: 15%;
+}
+.imageChild {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageCarousel {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}

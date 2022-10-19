@@ -1,0 +1,51 @@
+{
+  "name": "spl-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@iconify/react": "^3.2.2",
+    "@mui/material": "^5.8.3",
+    "@mui/styles": "^5.8.4",
+    "@portabletext/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.32.0",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "babel-plugin-styled-components": "^2.0.7",
+    "canvas-confetti": "^1.5.1",
+    "formik": "^2.2.9",
+    "get-video-id": "^3.6.4",
+    "next": "12.1.6",
+    "next-seo": "^5.4.0",
+    "nookies": "^2.5.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-medium-image-zoom": "^4.4.3",
+    "react-multi-carousel": "^2.8.2",
+    "react-player": "^2.10.1",
+    "react-redux": "^8.0.2",
+    "react-select": "^5.3.2",
+    "react-toastify": "^9.0.5",
+    "redux-persist": "^6.0.0",
+    "stripe": "^9.12.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.30.2",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

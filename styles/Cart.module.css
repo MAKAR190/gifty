@@ -1,0 +1,155 @@
+.mainInfoBox {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  background: #f5f7fa;
+}
+.mainInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.mobileMainInfo {
+  display: none;
+}
+.cartItem {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.mainTitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 16px);
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (16 - 12) + 12px);
+  line-height: 29px;
+  text-transform: uppercase;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  align-items: center;
+}
+.action {
+  min-width: 150px;
+  margin-left: 2%;
+}
+.info {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (12 - 10) + 10px);
+  line-height: 20px;
+  color: #535353;
+  padding-bottom: 15px;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    padding-top: 90px;
+  }
+  .cartItem {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 2300px) {
+  .wrapper {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .actions {
+    flex-direction: column;
+  }
+  .action {
+    margin-left: 0;
+    margin-top: 2%;
+  }
+  .cartItem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .mobileMainInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .cartItem {
+    width: 70%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .actions {
+    width: 50%;
+  }
+  .total {
+    margin-top: 2%;
+  }
+  .mainTitle {
+    display: none;
+  }
+  .total {
+    display: none;
+  }
+  .mobileMainTitle {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (24 - 16) + 16px);
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mobileTotal {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (16 - 12) + 12px);
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+  .cartItem {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+  }
+}

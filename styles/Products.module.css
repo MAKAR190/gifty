@@ -1,0 +1,87 @@
+.mainTitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (40 - 20) + 20px);
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mainInfoBox {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  min-height: 100px;
+}
+.info {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc((100vw - 480px) / (1280 - 480) * (12 - 10) + 10px);
+  line-height: 20px;
+  color: #535353;
+  padding-bottom: 5%;
+}
+.mainInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.input {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.cartIcon {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.inputChild {
+  width: 70%;
+}
+.cartIconChild {
+  width: 15%;
+  min-width: 50px;
+  cursor: pointer;
+  position: relative;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    padding-top: 90px;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 2300px) {
+  .wrapper {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mainInfo {
+    flex-direction: column;
+  }
+  .input {
+    width: 70%;
+    margin-top: 2%;
+  }
+  .cartIcon {
+    margin-top: 2%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .input {
+    width: 100%;
+  }
+}
