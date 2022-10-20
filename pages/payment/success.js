@@ -41,7 +41,6 @@ const Success = ({ user, updateHistory, isAuthenticated }) => {
             });
         });
       } else {
-        console.log("here");
         cartItems.map((product) => {
           client
             .patch(product._id)
@@ -97,7 +96,7 @@ const Success = ({ user, updateHistory, isAuthenticated }) => {
   return (
     <>
       <NextSeo
-        title="Checkout Success - Solar Power Life"
+        title="Checkout Success - Gifty"
         description="Order was successfull"
         additionalLinkTags={[
           {

@@ -11,7 +11,7 @@ const Canceled = ({ isAuthenticated }) => {
   return (
     <>
       <NextSeo
-        title="Checkout Canceled - Solar Power Life"
+        title="Checkout Canceled - Gifty"
         description="Order was successfull"
         additionalLinkTags={[
           {
