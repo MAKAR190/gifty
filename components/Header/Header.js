@@ -14,6 +14,7 @@ import { connect } from "react-redux";
 import selectors from "../../redux/auth/selectors";
 import operations from "../../redux/auth/operations";
 import Loader from "../Loader/Loader";
+import { useRouter } from "next/router";
 
 const Header = ({ isAuthenticated, logOut, loading }) => {
   const [showImage, setShowImage] = useState(false);
@@ -24,6 +25,7 @@ const Header = ({ isAuthenticated, logOut, loading }) => {
   const [productUrl, setProductUrl] = useState(null);
   const navRef = useRef(null);
   const signUpRef = useRef(null);
+  const router = useRouter();
 
   useEffect(() => {
     document.addEventListener("scroll", handleScroll);
@@ -31,6 +33,9 @@ const Header = ({ isAuthenticated, logOut, loading }) => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  useEffect(() => {
+    showMobileMenu(false);
+  }, [router.asPath]);
   const handleScroll = (e) => {
     if (window.innerWidth > 1024 && window.innerWidth < 2300) {
       if (
