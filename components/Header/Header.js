@@ -316,19 +316,15 @@ const Header = ({ isAuthenticated, logOut, loading }) => {
               {showDetails && (
                 <div className={styles.detailedMenu}>
                   <div id={styles.detailed}>
-                    <Link href="/products/beam-2-black-frame-182mm">
-                      BEAM 2 BLACK FRAME (182MM)
+                    <Link href="/products/lemon-bear-plush">
+                      Lemon Bear Plush
                     </Link>
                   </div>
                   <div id={styles.detailed}>
-                    <Link href="/products/beam-plus-silver">
-                      BEAM PLUS SILVER
-                    </Link>
+                    <Link href="/products/halloween-duck">Halloween Duck</Link>
                   </div>
                   <div id={styles.detailed}>
-                    <Link href="/products/beam-silver-black-frame-166mm">
-                      BEAM SILVER / BLACK FRAME (166MM)
-                    </Link>
+                    <Link href="/products/rose-bear">Rose Bear</Link>
                   </div>
                 </div>
               )}
