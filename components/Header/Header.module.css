@@ -58,6 +58,7 @@
   background: #fff;
   overflow: auto;
   height: 100%;
+  top: 0;
 }
 .mobileMenuBox {
   transition: 0.5s;
