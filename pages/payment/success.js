@@ -79,7 +79,7 @@ const Success = ({ user, updateHistory, isAuthenticated }) => {
           });
       } else {
         client
-          .patch(code.productId)
+          .patch(code.product._id)
           .dec({ quantity: code.quantity })
           .commit()
           .then(() => {
