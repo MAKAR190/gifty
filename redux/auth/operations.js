@@ -4,7 +4,7 @@ import selectors from "./selectors";
 import { toast } from "react-toastify";
 import options from "../../utils/toastOptions";
 
-axios.defaults.baseURL = "https://spl-be.herokuapp.com/";
+axios.defaults.baseURL = "https://spl-be.onrender.com";
 
 const token = {
   set(value) {

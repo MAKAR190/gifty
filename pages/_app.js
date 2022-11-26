@@ -30,6 +30,7 @@ const emptyPages = [
   "/forgot-password",
   "/reset-password/[token]",
 ];
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loader, setLoader] = useState(false);
